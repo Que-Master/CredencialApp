@@ -36,40 +36,42 @@ En eventos o reuniones, se requiere llevar un registro claro de asistentes, gene
 ### 📂 Estructura de carpetas
 
 📂 Source Packages
+
 │
+
 ├── adapter → Adapter Pattern
 
-Exportador.java → interfaz común
+├──── Exportador.java → interfaz común
 
-ExportadorPdf.java → exportación PDF simulada
+├──── ExportadorPdf.java → exportación PDF simulada
 
-ExportadorTxt.java → exportación a archivo real TXT
+├──── ExportadorTxt.java → exportación a archivo real TXT
 
 ├── iterator → Iterator Pattern
 
-ListaAsistentes.java → lista propia con métodos de recorrido
+├──── ListaAsistentes.java → lista propia con métodos de recorrido
 
 ├── model → Clases de dominio
 
-Asistente.java → contiene id, nombre, rut y tipo de acceso
+├──── Asistente.java → contiene id, nombre, rut y tipo de acceso
 
-Credencial.java → credencial generada por asistente
+├──── Credencial.java → credencial generada por asistente
 
-ValidarRut.java → utilitario de validación
+├──── ValidarRut.java → utilitario de validación
 
 ├── observer → Observer Pattern
 
-Logger.java → observador que imprime logs
+├──── Logger.java → observador que imprime logs
 
-Observador.java → interfaz observador
+├──── Observador.java → interfaz observador
 
-SujetoAsistentes.java → sujeto observado que notifica
+├──── SujetoAsistentes.java → sujeto observado que notifica
 
 ├── principal
 
-Main.java → clase con el flujo principal de la aplicación
+├──── Main.java → clase con el flujo principal de la aplicación
 
 ├── singleton → Singleton Pattern
 
-GeneradorCredenciales.java → generador de credenciales único
+├──── GeneradorCredenciales.java → generador de credenciales único
 
