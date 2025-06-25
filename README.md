@@ -38,7 +38,7 @@ En eventos o reuniones, se requiere llevar un registro claro de asistentes, gene
 
 │
 
-├── 📦 adapter → Adapter Pattern
+├── 📦 adapter → Patron Adapter
 
 ├──── 📄 Exportador.java → interfaz común
 
@@ -58,7 +58,7 @@ En eventos o reuniones, se requiere llevar un registro claro de asistentes, gene
 
 ├──── 📄 ValidarRut.java → utilitario de validación
 
-├── 📦 observer → Observer Pattern
+├── 📦 observer → Patron Observer 
 
 ├──── 📄 Logger.java → observador que imprime logs
 
