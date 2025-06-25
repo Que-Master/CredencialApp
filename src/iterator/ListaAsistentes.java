@@ -21,6 +21,18 @@ public class ListaAsistentes implements Iterable<Asistente> {
         asistentes.add(a);
     }
 
+    public Asistente eliminar(int indice) {
+        return asistentes.remove(indice);
+    }
+
+    public boolean tieneElementos() {
+        return !asistentes.isEmpty();
+    }
+
+    public List<Asistente> obtenerTodos() {
+        return asistentes;
+    }
+
     @Override
     public Iterator<Asistente> iterator() {
         return asistentes.iterator();

@@ -17,7 +17,8 @@ public class Credencial {
     }
 
     public String obtenerContenido() {
-        return "Nombre: " + asistente.getNombre()
+        return "ID: " + asistente.getId()
+                + "\nNombre: " + asistente.getNombre()
                 + "\nRUT: " + asistente.getRut()
                 + "\nAcceso: " + asistente.getTipoAcceso();
     }
@@ -26,4 +27,3 @@ public class Credencial {
         return asistente;
     }
 }
-
