@@ -31,7 +31,6 @@ En eventos o reuniones, se requiere llevar un registro claro de asistentes, gene
 
 ---
 
-## 📌 Instrucciones de compilación y ejecución  
 
 ### 📂 Estructura de carpetas
 
@@ -75,3 +74,21 @@ En eventos o reuniones, se requiere llevar un registro claro de asistentes, gene
 
 ├──── 📄 GeneradorCredenciales.java → generador de credenciales único
 
+
+## 📌 Instrucciones de compilación y ejecución  
+📥 Clonación del Repositorio
+📦 Compilación y Ejecución desde Terminal
+Para obtener este proyecto en su computador:
+
+Abrir terminal o consola de comandos.
+
+Ejecutar el siguiente comando:
+
+
+git clone https://github.com/Que-Master/CredencialApp.git
+
+Para compilar y correr manualmente desde consola:
+
+cd CredencialApp/src/principal
+
+java -cp . Main.java
